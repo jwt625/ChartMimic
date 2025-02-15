@@ -3,6 +3,16 @@ agent:
   prompt_path: ${PROJECT_PATH}/chart2code/prompts/DirectAgent/gpt-4-vision-preview.json
 
 llm:
+  gpt-4-turbo:
+      name: gpt
+      engine: gpt-4-turbo
+      context_length: 4096
+      max_tokens: 4096
+      temperature: 0.0
+      top_p: 1
+      retry_delays: 20
+      max_retry_iters: 15
+      stop: []
   gpt-4-vision-preview:
       name: gpt
       engine: gpt-4-vision-preview
@@ -13,9 +23,9 @@ llm:
       retry_delays: 20
       max_retry_iters: 15
       stop: []
-  gpt-4o:
+  gpt-4o-2024-11-20:
       name: gpt
-      engine: gpt-4o
+      engine: gpt-4o-2024-11-20
       context_length: 4096
       max_tokens: 4096
       temperature: 0.0

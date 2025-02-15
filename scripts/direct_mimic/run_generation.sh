@@ -1,6 +1,6 @@
-model=gpt-4-vision-preview
+model=gpt-4o-2024-11-20
 
-python chart2code/main.py \
+python3 chart2code/main.py \
 --cfg_path eval_configs/direct_generation.yaml \
 --tasks chart2code \
 --model ${model}

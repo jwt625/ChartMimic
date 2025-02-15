@@ -1,6 +1,6 @@
 from .openai import OPENAI_GPT
 from .gemini import GEMINI
-from .deepseekvl import DeepSeekVL
+# from .deepseekvl import DeepSeekVL
 from .qwenvl import QwenVL
 from .internvl import InternVL
 from .idefics2 import Idefics2
@@ -14,7 +14,7 @@ from common.registry import registry
 __all__ = [
     "OPENAI_GPT",
     "GEMINI",
-    "DeepSeekVL",
+    # "DeepSeekVL",
     "QwenVL",
     "InternVL",
     "Idefics2",
